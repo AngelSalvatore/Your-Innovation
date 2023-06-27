@@ -1,16 +1,17 @@
 .header2 {
   font-family: "Montserrat", sans-serif;
   color: #8d97ad;
+  color: #4f4f50;
   font-weight: 300;
 }
 
 .header2.bg-success-gradiant {
-  background: #2cdd9b;
-  background: -webkit-linear-gradient(legacy-direction(to right), #2cdd9b 0%, #1dc8cc 100%);
-  background: -webkit-gradient(linear, left top, right top, from(#2cdd9b), to(#1dc8cc));
-  background: -webkit-linear-gradient(left, #2cdd9b 0%, #1dc8cc 100%);
-  background: -o-linear-gradient(left, #2cdd9b 0%, #1dc8cc 100%);
-  background: linear-gradient(to right, #2cdd9b 0%, #1dc8cc 100%);
+  background: #2c90dd;
+  background: -webkit-linear-gradient(legacy-direction(to right), #1255c9  0%, #04c3c6 100%);
+  background: -webkit-gradient(linear, left top, right top, from(#1255c9 ), to(#04c3c6));
+  background: -webkit-linear-gradient(left, #1255c9 0%, #04c3c6 100%);
+  background: -o-linear-gradient(left, #1255c9 0%, #04c3c6 100%);
+  background: linear-gradient(to right, #1255c9 0%, #04c3c6 100%);
 }
 
 .header2 .font-12 {
@@ -47,6 +48,7 @@
   .header2 .dropdown-submenu:hover > .dropdown-menu {
     display: block;
   }
+  
 }
 
 .header2 .dropdown-toggle::after {
