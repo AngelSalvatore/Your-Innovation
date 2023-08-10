@@ -10,6 +10,45 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Kaushan+Script&amp;display=swap">
     <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
     <link rel="stylesheet" href="assets/css/Hero-Clean-images.css">
+
+    <!--Posicionamiento-->
+  <meta name="description" content="Los meta tags de HTML codifican información para ser interpretada por el navegador y los buscadores. ¿Sabes cuáles son imprescindibles?"/>
+  <meta name="keywords" content="palabra clave 1, palabra clave 2, palabra clave 3"/>
+  <meta name="robots" content="index"/>
+  <meta name="googlebot" content="index, follow" />
+  <meta name="google" content="nositelinkssearchbox" />
+  <meta name=”distribution” content=”global”/>
+  <meta name="author" content="Nombre del autor" />
+  <meta name="copyright" content="Propietario del copyright" />
+
+    <script type="text/javascript">
+    $(document).ready(function () {
+        //Disable cut copy paste
+        $('body').bind('cut copy paste', function (e) {
+            e.preventDefault();
+        });
+       
+        //Disable mouse right click
+        $("body").on("contextmenu",function(e){
+            return false;
+        });
+    });
+    </script>
+  
+  <--propiedades responsivas-->
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    
+    <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-M9ZYHJ9ZK8"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-M9ZYHJ9ZK8');
+</script>
 </head>
 
 <body id="page-top" data-bs-spy="scroll" data-bs-target="#mainNav" data-bs-offset="54">
